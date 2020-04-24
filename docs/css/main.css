@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+.input-wrapper>input {
+  padding: 10px;
+  width: 100%;
+  height: 38px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  height: 38px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #4482ff;
+  color: #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #f2f2f2;
+}
+
+.btn-icon {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+}
+
+/* nav */
+.main-nav {
+  height: 38px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  background: #4482ff;
+  color: #ffffff;
+}
+
+.main-nav>* {
+  margin-right: 10px;
+}
+
+/* auth */
+.sign-up-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  background: url("../img/register-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.form-sign-up,.form-sign-in {
+  min-width: 500px;
+  background: #ffffff;
+}
+
+.sign-in-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  background: url("../img/login-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.form-header>h3 {
+  padding: 50px 0px;
+  font-size: 32px;
+  text-align: center;
+  color: #7b8396;
+}
+
+.form-content {
+  padding: 0px 50px;
+}
+
+.form-content>* {
+  margin-bottom: 10px;
+}
+
+.name-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-wrapper>.input-wrapper {
+  width: calc(50% - 5px);
+}
+
+.form-footer {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-error {
+  color: #ff0000;
+}
+
+.message-success {
+  color: #00ff00;
+}
+
+/* chat */
+.chat-container {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 38px);
+}
+
+.aside-left {
+  width: 15%;
+}
+
+.current-conversation {
+  width: 70%;
+}
+
+.aside-right {
+  width: 15%;
+}
+
+.list-conversation {
+  padding: 10px;
+  max-height: 60%;
+  overflow-y: auto;
+}
+
+.list-conversation>.conversation {
+  margin-bottom: 10px;
+}
+
+.conversation:hover {
+  cursor: pointer;
+}
+
+.conversation.current {
+  background: #f2f2f2;
+}
+
+.conversation-title {
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conversation-members {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.form-add-conversation {
+  padding: 10px;
+}
+
+.form-add-conversation>* {
+  margin-bottom: 10px;
+}
+
+.list-message-chat {
+  width: 100%;
+  height: calc(100% - 38px);
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.list-message-chat>.message-chat {
+  margin-bottom: 10px;
+}
+
+.message-chat>span {
+  max-width: 50%;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #4482ff;
+  border-radius: 5px;
+  color: #4482ff;
+  word-break: break-word;
+}
+
+.message-chat.your {
+  text-align: right;
+}
+
+.form-add-message-chat {
+  display: flex;
+  width: 100%;
+  height: 38px;
+}
+
+.form-add-message-chat>.input-wrapper {
+  width: calc(100% - 120px);
+  /* width: 100%; */
+}
+
+.details-current-conversation {
+  padding: 10px;
+}
+
+.details-current-conversation>* {
+  margin-bottom: 10px;
+}
+
+.conversation-email {
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conversation-created-at {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.btn-leave-conversation-wrapper {
+  padding: 10px;
+}

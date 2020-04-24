@@ -1,0 +1,25 @@
+{
+  "title": "Cuoc hoi thoai cua 2 ong Linh",
+  "createdAt": "2020-04-07T14:39:06.604Z",
+  "users": [
+    "linhnt28031995@gmail.com",
+    "linhnt.solution@gmail.com"
+  ],
+  "messages": [
+    {
+      "owner": "linhnt28031995@gmail.com",
+      "content": "Hello",
+      "sendAt": "2020-04-07T14:39:06.604Z"
+    },
+    {
+      "owner": "linhnt.solution@gmail.com",
+      "content": "How are you?",
+      "sendAt": "2020-04-07T14:40:06.604Z"
+    },
+    {
+      "owner": "linhnt28031995@gmail.com",
+      "content": "I'm fine ty!",
+      "sendAt": "2020-04-07T14:41:06.604Z"
+    }
+  ]
+}
